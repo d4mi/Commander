@@ -1,0 +1,48 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <system:String x:Key="File">_Plik</system:String>
+    <system:String x:Key="View">_Widok</system:String>
+    <system:String x:Key="Show">_Pokaż</system:String>
+    <system:String x:Key="Help">_Pomoc</system:String>
+    <system:String x:Key="Of">z</system:String>
+    <system:String x:Key="Free">wolne</system:String>
+    <system:String x:Key="Name">Nazwa</system:String>
+    <system:String x:Key="Size">Rozmiar</system:String>
+    <system:String x:Key="Date">Data</system:String>
+    <system:String x:Key="Attr">Attr</system:String>
+    <system:String x:Key="Extension">Rozszerzenie</system:String>
+
+    <system:String x:Key="ViewFile">F2 Pokaż</system:String>
+    <system:String x:Key="Delete">F3 Usuń</system:String>
+    <system:String x:Key="Move">F4 Przenieś</system:String>
+    <system:String x:Key="Edit">F5 Edytuj</system:String>
+    <system:String x:Key="Copy">F6 Kopiuj</system:String>
+    <system:String x:Key="NewFolder">F7 Nowy folder</system:String>
+    <system:String x:Key="Exit">F8 Wyjście</system:String>
+    
+    
+    <system:String x:Key="AccessDeniedMessage">Brak praw dostępu.</system:String>
+    <system:String x:Key="ArgumentExceptionMessage">Ścieżka zawiera nieprawidłowe znaki.</system:String>
+    <system:String x:Key="PathTooLongMessage">Ścieżka za długa..</system:String>
+    <system:String x:Key="WrongPathMessage">Błędna ścieżka</system:String>
+
+    <system:String x:Key="Error">Błąd</system:String>
+    
+    <system:String x:Key="CopyFile">Kopiuj plik do: </system:String>
+
+    <system:String x:Key="Ok">Ok</system:String>
+    <system:String x:Key="Cancel">Anuluj</system:String>
+
+    <system:String x:Key="deleteFile">Czy na pewno usunąć plik?</system:String>
+
+    <system:String x:Key="Files">plik(ów)</system:String>
+    <system:String x:Key="Dirs">folder(ów)</system:String>
+    
+    <system:String x:Key="FileProgress">Postęp kopiowania pliku: </system:String>
+    <system:String x:Key="AllProgress">Postęp kopiowanie wszystkich plików: </system:String>
+
+    <system:String x:Key="MoveFileProgress">Przenoszenie pliku:</system:String>
+    <system:String x:Key="MoveAllFileProgress">Przenoszenie wszystkich plików:</system:String>
+    <system:String x:Key="MoveFile">Przenieś plik do:</system:String>
+</ResourceDictionary>

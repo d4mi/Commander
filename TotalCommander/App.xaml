@@ -1,0 +1,10 @@
+﻿<Application x:Class="TotalCommander.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindowView.xaml"
+             Startup="Application_Startup_1"
+             xmlns:Common="clr-namespace:TotalCommander.Common">
+    <Application.Resources>
+        <Common:ViewModelLocator x:Key="Locator"/>
+    </Application.Resources>
+</Application>

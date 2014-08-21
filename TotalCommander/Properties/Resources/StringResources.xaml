@@ -1,0 +1,48 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <system:String x:Key="File">_File</system:String>
+    <system:String x:Key="View">_View</system:String>
+    <system:String x:Key="Show">_Show</system:String>
+    <system:String x:Key="Help">_Help</system:String>
+    <system:String x:Key="Of">of</system:String>
+    <system:String x:Key="Free">free</system:String>
+    <system:String x:Key="Name">Name</system:String>
+    <system:String x:Key="Size">Size</system:String>
+    <system:String x:Key="Date">Date</system:String>
+    <system:String x:Key="Attr">Attr</system:String>
+    <system:String x:Key="Extension">Extension</system:String>
+
+    <system:String x:Key="ViewFile">F2 View</system:String>
+    <system:String x:Key="Delete">F3 Delete</system:String>
+    <system:String x:Key="Move">F4 Move</system:String>
+    <system:String x:Key="Edit">F5 Edit</system:String>
+    <system:String x:Key="Copy">F6 Copy</system:String>
+    <system:String x:Key="NewFolder">F7 New folder</system:String>
+    <system:String x:Key="Exit">F8 Exit</system:String>
+
+    <system:String x:Key="AccessDeniedMessage">Access denied</system:String>
+    <system:String x:Key="ArgumentExceptionMessage">File contains one or more invalid characters.</system:String>
+    <system:String x:Key="PathTooLongMessage">Path is too long.</system:String>
+    <system:String x:Key="WrongPathMessage">Wrong path.</system:String>
+
+    <system:String x:Key="Error">Error</system:String>
+
+    <system:String x:Key="CopyFile">Copy file to:</system:String>
+
+    
+    <system:String x:Key="Ok">Ok</system:String>
+    <system:String x:Key="Cancel">Cancel</system:String>
+
+    <system:String x:Key="deleteFile">Are you sure you want to delete the file?</system:String>
+
+    <system:String x:Key="Files">file(s)</system:String>
+    <system:String x:Key="Dirs">dir(s)</system:String>
+
+    <system:String x:Key="FileProgress">Copy file: </system:String>
+    <system:String x:Key="AllProgress">All files: </system:String>
+
+    <system:String x:Key="MoveFileProgress">Current file:</system:String>
+    <system:String x:Key="MoveAllFileProgress">All files:</system:String>
+    <system:String x:Key="MoveFile">Move file to:</system:String>
+</ResourceDictionary>

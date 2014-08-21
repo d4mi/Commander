@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="TotalCommander.View.CopyDialogView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="200" d:DesignWidth="600">
+    <StackPanel Margin="5,5,5,5">
+        <Label Content="{DynamicResource CopyFile}" />
+        <TextBox Margin="5, 10, 5, 10"  Text="{Binding DestinationPath, Mode=TwoWay}"/>
+
+
+        <TextBlock Text="{DynamicResource FileProgress}" />
+        <ProgressBar Value="{Binding Progress}" Height="30" />
+        <TextBlock Text="{DynamicResource AllProgress}" />        
+        <ProgressBar Value="{Binding AllProgress}" Height="30" />
+        
+        <UniformGrid>
+            <Button Margin="5, 10, 5, 10" Content="{DynamicResource Ok}" Command="{Binding OkClicked}"/>
+            <Button Margin="5, 10, 5, 10" Content="{DynamicResource Cancel}" Command="{Binding CancelClicked}"/>
+        </UniformGrid>
+
+    </StackPanel>
+</UserControl>

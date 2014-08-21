@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="TotalCommander.View.MoveDialogView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="250" d:DesignWidth="600">
+    <StackPanel Margin="5,5,5,5">
+        <Label Content="{DynamicResource MoveFile}" />
+        <TextBox Margin="5, 10, 5, 10"  Text="{Binding DestinationPath, Mode=TwoWay}"/>
+
+
+        <TextBlock Text="{DynamicResource MoveFileProgress}" />
+        <ProgressBar Value="{Binding Progress}" Height="30" />
+        <TextBlock Text="{DynamicResource MoveAllFileProgress}" />
+        <ProgressBar Value="{Binding AllProgress}" Height="30" />
+
+        <UniformGrid>
+            <Button Margin="5, 10, 5, 10" Content="{DynamicResource Ok}" Command="{Binding OkClicked}"/>
+            <Button Margin="5, 10, 5, 10" Content="{DynamicResource Cancel}" Command="{Binding CancelClicked}"/>
+        </UniformGrid>
+
+    </StackPanel>
+</UserControl>
